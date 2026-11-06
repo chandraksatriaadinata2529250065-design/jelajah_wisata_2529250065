@@ -51,7 +51,29 @@ class MainScreen extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(16.0),
                 child: const Text(
-                  'Stone Garden menawarkan pemandangan alam yang '
+                  'Stone Garden menawarkan pemandangan alam yang unik dengan hamparan batu dan perbukitan. Tempat ini cocok untuk menikmati udara segar serta mengabadikan momen bersama keluarga.' ,
+                  textAlign: TextAlign.justify,
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    fontFamily: 'Oxygen' ,
+                  ),
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.only(left: 16.0, top: 8.0),
+                child: const Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(Icons.star_half, color: Colors.orange),
+                    SizedBox(width: 8.0),
+                    Text(
+                      '4.5',
+                      style: TextStyle(
+                        fontSize: 16.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    )
+                  ],
                 ),
               )
             ]
