@@ -71,10 +71,14 @@ class MainScreen extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 16.0,
                         fontWeight: FontWeight.bold,
+                        fontFamily: 'Oxygen',
                       ),
-                    )
+                    ),
                   ],
                 ),
+              ),
+              Container(
+                margin: ,
               )
             ]
           )
